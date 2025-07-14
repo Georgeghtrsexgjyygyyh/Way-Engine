@@ -1,4 +1,4 @@
-# Way-Engine - is a cross—platform 2D/(3D will be developing after test version) game engine focused on simplicity, flexibility, and accessibility.
+# Way-Engine - is a cross-platform 2D/(3D will be developing after test version) game engine focused on simplicity, flexibility, and accessibility.
 
 ******************
 It offers three ways to create games:
