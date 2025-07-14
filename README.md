@@ -1,57 +1,39 @@
-# Way-Engine - is a cross-platform 2D/(3D will be developing after test version) game engine focused on simplicity, flexibility, and accessibility.
+# Way Engine
 
-******************
-It offers three ways to create games:
-- programming in C#, Python or C++
-- visual programming (analogous to Blueprints and Scratch)
-- generation of mini-games using built-in AI (GameGPT)
-******************
+**Way Engine** is a cross-platform 2D (and future 3D) game engine focused on **simplicity**, **flexibility**, and **accessibility** for indie developers of all skill levels.
 
-Way Engine will change all community of indi develop!
+🎮 It offers **three powerful ways** to create games:
 
-|||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||
+1. 💻 Programming in **C#**, **Python**, or **C++**
+2. 🎨 Visual scripting system *(like Blueprints or Scratch)*
+3. 🤖 Built-in AI – **GameGPT**, which can generate mini-games (e.g. Dino Run, Flappy Bird) in the free version, and more complex ones in the Pro version
 
-🚧 Way Engine is in the preparatory stage of development.
+> _Way Engine aims to reshape the future of indie game development._
 
+---
 
-📍 Roadmap
+## 🚀 Roadmap
 
-- [ ] Repository initialization
-- [ ] The basic structure of the engine
-- [ ] Component system
-- [ ] Visual Editor
-- [ ] C#/Python/C++ support
-- [ ] GameGPT — AI game generation
+- 🔄 Repository initialization
+- 🏗️ Basic engine architecture
+- 🧱 Component system
+- 🛠️ Visual Editor
+- 💡 Multi-language scripting support (C#/Python/C++)
+- 🤖 GameGPT AI generator (basic and pro)
+- 📦 First test release — **December 31, 2025**
 
-/////////////////////////////////////////////////////
+---
 
-Develop Way Engine starts in ends of august and finished test version will be posted 31 December!
+## 🗓 Development Timeline
 
-/////////////////////////////////////////////////////
+📅 **Development starts:** Early August 2025  
+📅 **Test version release:** December 31, 2025
 
+---
 
+## 🧾 License
 
+Way Engine is licensed under the MIT License.  
+See the `LICENSE` file for details.
 
-MIT License
-
-Copyright (c) 2025 George Vakhromov
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
+---
