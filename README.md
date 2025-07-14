@@ -1,7 +1,19 @@
-# Way-Engine
+# Way-Engine - is a cross—platform 2D/(3D will be developing after test version) game engine focused on simplicity, flexibility, and accessibility.
+
+******************
+It offers three ways to create games:
+- programming in C#, Python or C++
+- visual programming (analogous to Blueprints and Scratch)
+- generation of mini-games using built-in AI (GameGPT)
+******************
+
 Way Engine will change all community of indi develop!
 
+|||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||
+
 🚧 Way Engine is in the preparatory stage of development.
+
 
 📍 Roadmap
 
@@ -17,6 +29,7 @@ Way Engine will change all community of indi develop!
 Develop Way Engine starts in ends of august and finished test version will be posted 31 December!
 
 /////////////////////////////////////////////////////
+
 
 
 
