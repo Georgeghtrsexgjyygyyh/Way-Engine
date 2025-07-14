@@ -3,6 +3,15 @@ Way Engine will change all community of indi develop!
 
 🚧 Way Engine is in the preparatory stage of development.
 
+📍 Roadmap
+
+- [ ] Repository initialization
+- [ ] The basic structure of the engine
+- [ ] Component system
+- [ ] Visual Editor
+- [ ] C#/Python/C++ support
+- [ ] GameGPT — AI game generation
+
 /////////////////////////////////////////////////////
 
 Develop Way Engine starts in ends of august and finished test version will be posted 31 December!
