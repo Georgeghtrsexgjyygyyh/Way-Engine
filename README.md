@@ -1,12 +1,13 @@
 # Way-Engine
 Way Engine will change all community of indi develop!
 
+🚧 Way Engine is in the preparatory stage of development.
+
 /////////////////////////////////////////////////////
 
 Develop Way Engine starts in ends of august and finished test version will be posted 31 December!
 
 /////////////////////////////////////////////////////
-
 
 
 
