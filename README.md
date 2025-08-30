@@ -14,13 +14,13 @@
 
 ## 🚀 Roadmap
 
-- 🔄 Repository initialization
-- 🏗️ Basic engine architecture
-- 🧱 Component system
-- 🛠️ Visual Editor
-- 💡 Multi-language scripting support (C#/Python/C++)
-- 🤖 GameGPT AI generator (basic and pro)
-- 📦 First test release — **December 31, 2025**
+- ✅- Repository initialization
+- 🛠️-🏗️ Basic engine architecture
+- 🔜-🧱 Component system
+- 🔜-🛠️ Visual Editor
+- 🔜-💡 Multi-language scripting support (C#/Python/C++)
+- 🔜-🤖 GameGPT AI generator (basic and pro)
+- 🔜-📦 First test release — **December 31, 2025**
 
 ---
 
