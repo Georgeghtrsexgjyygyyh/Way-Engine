@@ -1,0 +1,22 @@
+🚀 Way Engine DevLog | Week 1: Building the Foundation
+Hello everyone! 👋 I’m excited to share the first weekly update of my custom game engine project — Way Engine. This week was all about moving away from "spaghetti code" toward a professional architecture.
+
+🏗️ Architecture Milestone
+We have successfully transitioned from a monolithic structure to a clean, Component-Based Architecture (CBA). This is a huge step for the engine's future scalability!
+
+🛠️ Key Technical Updates:
+Smart Entity System: Implemented a centralized Entity class with dynamic ID generation and automatic scene registration via Dictionaries. 🆔
+
+Modular Mesh Component: Encapsulated VAO, VBO, and Shader logic. This decouples raw data from the main loop, making the engine much cleaner. 📦
+
+Transform & Color: Created specialized structures to manage spatial data and aesthetic properties independently. 🎨
+
+Optimized Rendering Pipeline: Developed an automated render loop that iterates through entities, significantly reducing complexity in the core Game class. ⚡
+
+Data Decoupling: Vertex definitions are now handled by a dedicated Type system, allowing for easy expansion. 📂
+
+🤫 Behind the Scenes
+There is also some "secret magic" happening under the hood right now... I’m not ready to reveal it just yet, but stay tuned! I'll be sharing more soon. ✨
+
+📅 Roadmap
+My goal is to have a clean, high-performance engine core ready for the Alpha Release on December 31st.
