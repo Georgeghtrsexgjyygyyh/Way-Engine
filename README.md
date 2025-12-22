@@ -15,8 +15,8 @@
 ## 🚀 Roadmap
 
 - ✅- Repository initialization
-- 🛠️-🏗️ Basic engine architecture
-- 🔜-🧱 Component system
+- ✅-🏗️ Basic engine architecture
+- ✅-🧱 Component system
 - 🔜-🛠️ Visual Editor
 - 🔜-💡 Multi-language scripting support (C#/Python/C++)
 - 🔜-🤖 GameGPT AI generator (basic and pro)
