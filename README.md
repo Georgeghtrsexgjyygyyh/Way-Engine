@@ -20,14 +20,14 @@
 - 🔜-🛠️ Visual Editor
 - 🔜-💡 Multi-language scripting support (C#/Python/C++)
 - 🔜-🤖 GameGPT AI generator (basic and pro)
-- 🔜-📦 First test release — **December 31, 2025**
+- 🔜-📦 First test release — **January 1, 2026**
 
 ---
 
 ## 🗓 Development Timeline
 
-📅 **Development starts:** Early August 2025  
-📅 **Test version release:** December 31, 2025
+📅 **Development starts:** Early December 2025  
+📅 **Test version release:** January 1, 2026
 
 ---
 
