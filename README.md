@@ -39,7 +39,9 @@
 ---
 📅 **Test version 0.0.0.5 release:** April 10, 2026
 ---
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=Georgeghtrsexgjyygyyh/Way-Engine&type=date&legend=top-left)](https://www.star-history.com/#Georgeghtrsexgjyygyyh/Way-Engine&type=date&legend=top-left)
 ---
 
 ## 🧾 License
