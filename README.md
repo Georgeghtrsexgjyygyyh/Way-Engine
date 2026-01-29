@@ -26,7 +26,9 @@
 
 ## 🗓 Development Timeline
 
+---
 📅 **Development starts:** Early December 2025  
+---
 📅 **Test version 0.0.0.1 release:** January 1, 2026
 ---
 📅 **Test version 0.0.0.2 release:** January 31, 2026
@@ -36,6 +38,7 @@
 📅 **Test version 0.0.0.4 release:** Probably March 31, 2026
 ---
 📅 **Test version 0.0.0.5 release:** April 10, 2026
+---
 
 ---
 
