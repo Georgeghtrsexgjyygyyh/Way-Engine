@@ -50,5 +50,5 @@ Way Engine is licensed under the MIT License.
 See the `LICENSE` file for details.
 
 ---
-📜 Manifesto
-"You must always keep moving forward. Comparing your path to others is just noise that slows you down. You must run and never look back; this is your journey and your results alone. Most importantly: if you love what you are doing and it brings value, you are doing everything right."
+**📜 Manifesto
+"You must always keep moving forward. Comparing your path to others is just noise that slows you down. You must run and never look back; this is your journey and your results alone. Most importantly: if you love what you are doing and it brings value, you are doing everything right."**
