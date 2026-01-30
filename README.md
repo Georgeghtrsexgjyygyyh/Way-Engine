@@ -31,9 +31,9 @@
 ---
 ✅ **Test version 0.0.0.1 release:** January 1, 2026
 ---
-🔄 **Test version 0.0.0.2 release:** January 31, 2026
+✅ **Test version 0.0.0.2 release:** January 30, 2026
 ---
-🔜 **Test version 0.0.0.3 release:** Probably February 18, 2026
+🔄 **Test version 0.0.0.3 release:** Probably February 18, 2026
 ---
 🔜 **Test version 0.0.0.4 release:** Probably March 31, 2026
 ---
