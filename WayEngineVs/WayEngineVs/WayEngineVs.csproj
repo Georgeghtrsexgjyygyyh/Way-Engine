@@ -16,7 +16,6 @@
   <ItemGroup>
     <Folder Include="EngineCore\Audio\" />
     <Folder Include="EngineCore\Physics\" />
-    <Folder Include="EngineCore\Utils\" />
     <Folder Include="EngineCore\Input\" />
   </ItemGroup>
 

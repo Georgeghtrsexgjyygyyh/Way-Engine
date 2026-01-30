@@ -18,12 +18,16 @@ public class Shader
 
     layout (location = 0) in vec2 aPosition;
 
-     uniform mat4 Translate;
+     uniform mat4 Model;
+
+     uniform mat4 View;
+
+     uniform mat4 Projection;
 
     void main()
     {
 
-       gl_Position = vec4(aPosition.x, aPosition.y, 0.0, 1.0) * Translate;
+       gl_Position = Projection * View * Model * vec4(aPosition.x, aPosition.y, 0.0, 1.0);
 
     }";
 
@@ -32,11 +36,13 @@ public class Shader
 
     layout (location = 0) out vec4 FragColor;
 
+    uniform vec4 Color;
+
     
 
     void main()
     {
-        FragColor = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+        FragColor = Color;
     }";
 
 

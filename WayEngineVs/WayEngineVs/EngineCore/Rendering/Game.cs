@@ -1,17 +1,19 @@
-﻿using GameRender;
+﻿using Entities;
+using GameRender;
+using ImGuiNET;
 using OpenTK.Graphics.OpenGL4;
+using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.GraphicsLibraryFramework;
 using System;
-using Entities;
+using System.Xml.Linq;
 
 namespace GameRender
 {
     public class Game : GameWindow
     {
 
-    
 
         public Game(GameWindowSettings gameWindowSettings, NativeWindowSettings nativeWindowSettings)
             : base(gameWindowSettings, nativeWindowSettings)
@@ -24,14 +26,26 @@ namespace GameRender
             base.OnLoad();
 
 
-            Entity newEntity1 = new Entity("Object0", "Triangle");
 
-            EntitySystem.ReloadTranslate(newEntity1 , 2 , 2);
+            Entity newEntity2 = new Entity("Object1", "Square");
 
+            Entity newEntity3 = new Entity("Object2", "Triangle");
 
 
 
             EntitySystem.LoadEntities();
+
+            
+            CameraSystem.CreateCamera(newEntity2);
+
+            TransformSystem.ReloadTranslate(newEntity2, 1.2f, -0.7f);
+
+            
+
+            ColorSystem.SetColor(newEntity2, Color4.Blue);
+
+            ColorSystem.SetColor(newEntity3 , Color4.Green);
+
         }
 
         protected override void OnRenderFrame(FrameEventArgs args)
@@ -44,11 +58,14 @@ namespace GameRender
 
             GL.ClearColor(0.1f, 0.1f, 0.6f, 1f);
 
+            
 
             RenderGameProcess.RenderEntities();
 
-            
-              
+
+
+
+
 
             SwapBuffers();
 
@@ -59,6 +76,8 @@ namespace GameRender
         {
             base.OnUpdateFrame(args);
 
+            CameraSystem.UpdateCamera(CameraSystem.CamerasScene[0]);
+
         }
     }
 
@@ -66,11 +85,13 @@ namespace GameRender
 
 public class RenderGameProcess
 {
+       public static Vector2i ScreenSize = new Vector2i(520, 480);
+
        public static void Main(string[] args)
        {
             var gameWindowSettings = GameWindowSettings.Default;
             var nativeWindowSettings = NativeWindowSettings.Default;
-            nativeWindowSettings.Size = new OpenTK.Mathematics.Vector2i(520, 420);
+            nativeWindowSettings.Size = ScreenSize;
             nativeWindowSettings.Title = "Game";
 
 
@@ -78,139 +99,81 @@ public class RenderGameProcess
             {
                 game_.Run();
             }
-       }
 
-       public static void CreateMesh(Entity entity)
-       {
+        }
+
+        
 
 
-            ////////
-            float[] vertices = {0};
-            uint[] indices = {0};
+
+        public static void RenderEntities() 
+        {
+
+            Entity cameraOwner = CameraSystem.CamerasScene[0];
+
+            Component.Camera camera = ComponentSystem.GetProperty<Component.Camera>(cameraOwner, "Camera");
+
             
-            switch (entity.type) 
+
+            foreach (Entity entity in EntitySystem.EntitiesScene.Values)
+            {
+               
+                RenderEntity(entity, camera);
+
+            }
+     
+        }
+
+
+        public static void RenderEntity(Entity entity,Component.Camera camera) 
+        {
+
+            Component.Transform transformTR = ComponentSystem.GetProperty<Component.Transform>(entity, "Transform");
+
+            Component.Mesh meshTR = ComponentSystem.GetProperty<Component.Mesh>(entity, "Mesh");
+
+            Component.Color colorTR = ComponentSystem.GetProperty<Component.Color>(entity, "Color");
+
+            int locModelTR = GL.GetUniformLocation(meshTR.Shader, "Model");
+
+            int locViewTR = GL.GetUniformLocation(meshTR.Shader, "View");
+
+            int locProjTR = GL.GetUniformLocation(meshTR.Shader, "Projection");
+
+            int locColorTR = GL.GetUniformLocation(meshTR.Shader, "Color");
+
+
+            GL.UseProgram(meshTR.Shader);
+
+            Matrix4 ModelTR = transformTR.xyPos * transformTR.zRotate * transformTR.xyScale;
+
+            GL.UniformMatrix4(locModelTR, false, ref ModelTR);
+
+            GL.UniformMatrix4(locViewTR, false, ref camera.view);
+
+            GL.UniformMatrix4(locProjTR, false, ref camera.projection);
+
+            GL.Uniform4(locColorTR,colorTR.color);
+
+
+            GL.BindVertexArray(meshTR.VertexArrayObject);
+
+
+            switch(entity.type) 
             {
                 case "Triangle":
 
-                    vertices = new Type.Triangle(entity.transform.xyScale.M11).vertices;
-                    indices = new Type.Triangle(entity.transform.xyScale.M11).indices;
+                  GL.DrawArrays(PrimitiveType.Triangles, 0, 3);
 
-                    break;
+                break;
 
                 case "Square":
 
-                    vertices = new Type.Square(entity.transform.xyScale.M11).vertices;
-                    indices = new Type.Square(entity.transform.xyScale.M11).indices;
+                  GL.DrawElements(PrimitiveType.Triangles, 6, DrawElementsType.UnsignedInt, 0);
 
-                    break;
-
-                default:
-
-                    Console.WriteLine("Bruh");
-
-                    break;
+                break;
             }
-                
-
-                int VAO = GL.GenVertexArray();
-                GL.BindVertexArray(VAO);
-
-                int VBO = GL.GenBuffer();
-                GL.BindBuffer(BufferTarget.ArrayBuffer, VBO);
-                GL.BufferData(BufferTarget.ArrayBuffer, vertices.Length * sizeof(float), vertices, BufferUsageHint.StaticDraw);
-
-                int EBO = GL.GenBuffer();
-                GL.BindBuffer(BufferTarget.ElementArrayBuffer, EBO);
-                GL.BufferData(BufferTarget.ElementArrayBuffer, indices.Length * sizeof(uint), indices, BufferUsageHint.StaticDraw);
-
-                Component.Mesh newMesh;
-                ////////
-
-
-                //...........
-                GL.VertexAttribPointer(0, 2, VertexAttribPointerType.Float, false, 2 * sizeof(float), 0);
-                GL.EnableVertexAttribArray(0);
-                //...........
-
-
-                string VS = new Shader.ShaderComponents().VertexShaderDefault;
-
-                string FS = new Shader.ShaderComponents().FragmentShaderDefault;
-
-
-                int vertexShader = GL.CreateShader(ShaderType.VertexShader);
-                GL.ShaderSource(vertexShader, VS);
-                GL.CompileShader(vertexShader);
-
-                int fragmentShader = GL.CreateShader(ShaderType.FragmentShader);
-                GL.ShaderSource(fragmentShader, FS);
-                GL.CompileShader(fragmentShader);
-
-                int SHADER = GL.CreateProgram();
-                GL.AttachShader(SHADER, vertexShader);
-                GL.AttachShader(SHADER, fragmentShader);
-                GL.LinkProgram(SHADER);
-
-                GL.DeleteShader(vertexShader);
-                GL.DeleteShader(fragmentShader);
-
-
-                newMesh = new Component.Mesh(VAO, VBO, EBO, SHADER);
-
-                entity.mesh = newMesh;
-
-            }
-
-       public static void RenderEntities() 
-       {
-                foreach (var entity in EntitySystem.EntitiesScene.Values)
-                {
-                   
-                    switch (entity.type)
-                    {
-                        case "Triangle":
-
-
-                           int loc = GL.GetUniformLocation(entity.mesh.Shader, "Translate");
-                        
-                            GL.UseProgram(entity.mesh.Shader);
-
-                            GL.UniformMatrix4(loc, false, ref entity.transform.xyPos);
-
-                            GL.BindVertexArray(entity.mesh.VertexArrayObject);
-
-                            
-
-                            GL.DrawArrays(PrimitiveType.Triangles, 0, 3);
-
-                            break;
-
-                        case "Square":
-
-                            int loc1 = GL.GetUniformLocation(entity.mesh.Shader, "Translate");
-
-                            GL.UseProgram(entity.mesh.Shader);
-
-                            GL.UniformMatrix4(loc1, false, ref entity.transform.xyPos);
-
-                            GL.UseProgram(entity.mesh.Shader);
-                            GL.BindVertexArray(entity.mesh.VertexArrayObject);
-                            
-
-                            GL.DrawElements(PrimitiveType.Triangles, 6 , DrawElementsType.UnsignedInt,0);
-
-                            break;
-
-                    default:
-
-                            Console.WriteLine("Nothing yet");
-
-                            break;
-                    }
-
-                }
-       }
-
-
+ 
         }
+   }
 }
