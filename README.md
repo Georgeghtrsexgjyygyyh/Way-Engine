@@ -52,7 +52,7 @@
 🔜 **Test version 0.0.0.9 release:** June 10, 2026
 ---
 ---
-🔜 **Test version 0.0.1 release:** June 31, 2026
+🔜 **Pre-alpha version 0.0.1 release:** June 30, 2026
 ---
 ## Star History
 
