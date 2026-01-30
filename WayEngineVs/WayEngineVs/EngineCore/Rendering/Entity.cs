@@ -13,21 +13,16 @@ namespace Entities
     {
         public int ID;
 
-        public float scale;
-
 
         public string name;
 
         public string type;
 
 
-        Random random = new Random();
 
 
 
-        public Component.Mesh mesh;
-
-        public Component.Transform transform = new Component.Transform();
+        public Dictionary<string, object> components = new Dictionary<string, object>();
 
 
         public Entity(string name,string type) 
@@ -37,7 +32,8 @@ namespace Entities
             this.type = type;
 
 
-            ID = 1 * (name.Length) * (name.Length * 2) * (type.Length) * (type.Length * 2) * random.Next(0,55);
+            ID = this.GetHashCode();
+
 
             EntitySystem.EntitiesScene.Add(this.ID, this);
 

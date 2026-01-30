@@ -21,6 +21,14 @@ public class MatrixSystem
 
                 return Matrix4.CreateTranslation(x,y,0);
 
+            case "Rotate":
+
+                return Matrix4.CreateRotationZ(x);
+
+            case "Projection":
+
+                return Matrix4.CreateOrthographic(x,y,-100.0f,100.0f);
+
             default:
 
                 return Matrix4.CreateScale(1);

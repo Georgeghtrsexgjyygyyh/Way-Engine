@@ -1,4 +1,5 @@
-﻿using OpenTK.Graphics.ES20;
+﻿using GameRender;
+using OpenTK.Graphics.ES20;
 using OpenTK.Mathematics;
 using System;
 using System.Collections.Generic;
@@ -18,13 +19,17 @@ public class Component
 
             public Matrix4 xyScale;
 
+            public Matrix4 zRotate;
+
 
             public Transform() 
             {
                 xyPos = MatrixSystem.CreateMatrix("Translate",0.0f,0.0f);
 
                 xyScale = MatrixSystem.CreateMatrix("Scale", 1.0f, 1.0f);
-            }
+
+                zRotate = MatrixSystem.CreateMatrix("Rotate", 0.0f, 0.0f);
+        }
 
             
         }
@@ -44,6 +49,7 @@ public class Component
                 transparent = (t) % 1; //Transparent t % 1 = 0-1 , t = 0-100
 
             }
+
         }
 
         public struct Mesh 
@@ -67,6 +73,24 @@ public class Component
                 this.Shader = SHADER;
 
             }
+        }
+
+
+        public struct Camera 
+        {
+           public Matrix4 projection;
+           
+           public Matrix4 view;
+
+           public Camera(Matrix4 view,Matrix4 projection) 
+           {
+              this.view = view;
+              
+              this.projection = projection;
+              
+           }
+
+
         }
 
 }

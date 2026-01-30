@@ -23,20 +23,14 @@ public class Type
                 0,1,2,
         };
 
-            public Triangle(float scale)
-            {
-                for (int i = 0; i < vertices.Length; i++)
-                {
+        public Triangle()
+        {
 
-                    vertices[i] = vertices[i] * scale;
-                }
-
-            }
         }
+    }
 
-    /// <summary>
-    /// 
-    /// </summary>
+
+
     public struct Square
     {
         public float[] vertices =
@@ -53,13 +47,8 @@ public class Type
              3,1,2,
         };
 
-        public Square(float scale)
+        public Square()
         {
-            for (int i = 0; i < vertices.Length; i++)
-            {
-
-                vertices[i] = vertices[i] * scale;
-            }
 
         }
     }

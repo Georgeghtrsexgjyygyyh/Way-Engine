@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WayEngineVs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a301c67b417468fd4d0271592596f3913218366a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24e4346a0f69f4f00adbea879dc5ebd0b50a0060")]
 [assembly: System.Reflection.AssemblyProductAttribute("WayEngineVs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WayEngineVs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
