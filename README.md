@@ -41,9 +41,9 @@
 ---
 🔜 **Test version 0.0.0.6 release:** April 29, 2026 (?Fix bugs,better architecture and more?)
 ---
-🔜 **Test version 0.0.0.7 release:** May 21, 2026 (?)
+🔜 **Test version 0.0.0.7 release:** May 21, 2026 (?Physics and more?)
 ---
-🔜 **Test version 0.0.0.8 release:** May 31, 2026 (?)
+🔜 **Test version 0.0.0.8 release:** May 31, 2026 (?Сollisions and more?)
 ---
 🔜 **Test version 0.0.0.9 release:** June 10, 2026 (?)
 ---
