@@ -19,4 +19,4 @@ Data Decoupling: Vertex definitions are now handled by a dedicated Type system, 
 There is also some "secret magic" happening under the hood right now... I’m not ready to reveal it just yet, but stay tuned! I'll be sharing more soon. ✨
 
 📅 Roadmap
-My goal is to have a clean, high-performance engine core ready for the Alpha Release on December 31st.
+My goal is to have a clean, high-performance engine core
