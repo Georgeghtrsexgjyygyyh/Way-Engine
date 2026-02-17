@@ -13,13 +13,11 @@ namespace Entities
     {
         public int ID;
 
+        private static int _nextId = 0;
 
         public string name;
 
         public string type;
-
-
-
 
 
         public Dictionary<string, object> components = new Dictionary<string, object>();
@@ -32,7 +30,8 @@ namespace Entities
             this.type = type;
 
 
-            ID = this.GetHashCode();
+
+            this.ID = Interlocked.Increment(ref _nextId);
 
 
             EntitySystem.EntitiesScene.Add(this.ID, this);

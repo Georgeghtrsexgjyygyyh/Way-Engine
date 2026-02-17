@@ -14,6 +14,8 @@ namespace GameRender
     public class Game : GameWindow
     {
 
+        private double _accumulator;
+
 
         public Game(GameWindowSettings gameWindowSettings, NativeWindowSettings nativeWindowSettings)
             : base(gameWindowSettings, nativeWindowSettings)
@@ -25,27 +27,15 @@ namespace GameRender
         {
             base.OnLoad();
 
-
-
-            Entity newEntity2 = new Entity("Object1", "Square");
-
-            Entity newEntity3 = new Entity("Object2", "Triangle");
-
-
+            Entity cam = new Entity("Camera", "Square");
 
             EntitySystem.LoadEntities();
-
-            
-            CameraSystem.CreateCamera(newEntity2);
-
-            TransformSystem.ReloadTranslate(newEntity2, 1.2f, -0.7f);
-
             
 
-            ColorSystem.SetColor(newEntity2, Color4.Blue);
 
-            ColorSystem.SetColor(newEntity3 , Color4.Green);
-
+            TransformSystem.ReloadScale(cam, 0.0f);
+            ColorSystem.SetColor(cam, new Color4(0, 0, 0, 0)); 
+            CameraSystem.CreateCamera(cam,150.0f);
         }
 
         protected override void OnRenderFrame(FrameEventArgs args)
@@ -75,8 +65,11 @@ namespace GameRender
         protected override void OnUpdateFrame(FrameEventArgs args)
         {
             base.OnUpdateFrame(args);
+            _accumulator += args.Time;
+            float time = (float)_accumulator;
 
-            CameraSystem.UpdateCamera(CameraSystem.CamerasScene[0]);
+
+            CameraSystem.UpdateCamera(CameraSystem.CamerasScene[0],150.0f);
 
         }
     }
@@ -100,7 +93,7 @@ public class RenderGameProcess
                 game_.Run();
             }
 
-        }
+       }
 
         
 

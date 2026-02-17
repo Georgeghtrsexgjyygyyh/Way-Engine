@@ -17,6 +17,7 @@ public class EntitySystem
 
     public static void LoadEntities()
     {
+        MeshSystem.LoadMesh();
 
         foreach (var entity in EntitiesScene.Values)
         {
@@ -24,6 +25,7 @@ public class EntitySystem
 
             Console.WriteLine($"Entity {OrderInScene}, ID: {entity.ID}");
 
+            
             MeshSystem.CreateMesh(entity);
 
             TransformSystem.CreateTransform(entity);

@@ -5,10 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 public class ComponentSystem
 {
-
 
 
     public static void SetProperty(Entity entity,string name, object value) 
