@@ -37,9 +37,9 @@ https://github.com/user-attachments/assets/b04737cc-8465-4a9c-8131-8e0c9ddff04f
 ---
 ✅ **Test version 0.0.0.2 release:** January 30, 2026
 ---
-🔄 **Test version 0.0.0.3 release:** Probably February 18, 2026 (Fix bugs,better architecture and more)
+✅ **Test version 0.0.0.3 release:** February 17, 2026 (Fix bugs,better architecture and more)
 ---
-🔜 **Test version 0.0.0.4 release:** Probably March 31, 2026 (Unit-tests and more)
+🔄 **Test version 0.0.0.4 release:** Probably March 31, 2026 (Unit-tests and more)
 ---
 🔜 **Test version 0.0.0.5 release:** April 10, 2026 (ImGui interface and more)
 ---
