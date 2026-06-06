@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/b04737cc-8465-4a9c-8131-8e0c9ddff04f
 - ✅- Repository initialization
 - ✅-🏗️ Basic engine architecture
 - ✅-🧱 Component system
-- 🔜-🛠️ Visual Editor
+- 🔄-🛠️ Visual Editor
 - 🔜-💡 Multi-language scripting support (C#/Python/C++)
 - 🔜-🤖 GameGPT AI generator (basic and pro)
 - 🔜-📦 First beta release — **September 31, 2026**
@@ -39,27 +39,24 @@ https://github.com/user-attachments/assets/b04737cc-8465-4a9c-8131-8e0c9ddff04f
 ---
 ✅ **Test version 0.0.0.3 release:** February 17, 2026 (Fix bugs,better architecture and more)
 ---
-🔄 **Test version 0.0.0.4 release:** Probably March 31, 2026 (Unit-tests and more)
 ---
-🔜 **Test version 0.0.0.5 release:** April 10, 2026 (ImGui interface and more)
+🔄 **Test version 0.0.0.6 release:** June 10, 2026 (?Fix bugs,better architecture,ImGui interface,unit-tests?)
 ---
-🔜 **Test version 0.0.0.6 release:** April 29, 2026 (?Fix bugs,better architecture and more?)
+🔜 **Test version 0.0.0.7 release:** June 14, 2026 (?Сollisions and more?)
 ---
-🔜 **Test version 0.0.0.7 release:** May 21, 2026 (?Physics and more?)
+🔜 **Test version 0.0.0.8 release:** June 18, 2026 (?Physics and more?)
 ---
-🔜 **Test version 0.0.0.8 release:** May 31, 2026 (?Сollisions and more?)
+🔜 **Test version 0.0.0.9 release:** June 20, 2026 (?)
 ---
-🔜 **Test version 0.0.0.9 release:** June 10, 2026 (?)
+🔜 **Pre-alpha version 0.0.1 release:** June 27, 2026 (?)
 ---
-🔜 **Pre-alpha version 0.0.1 release:** June 30, 2026 (?)
+🔜 **Pre-alpha version 0.0.2 release:** July 1, 2026 (?)
 ---
-🔜 **Pre-alpha version 0.0.2 release:** July 23, 2026 (?)
+🔜 **Pre-alpha version 0.0.3 release:** July 6, 2026 (?)
 ---
-🔜 **Pre-alpha version 0.0.3 release:** July 30, 2026 (?)
+🔜 **Pre-alpha version 0.0.4 release:** July 10, 2026 (?)
 ---
-🔜 **Pre-alpha version 0.0.4 release:** August 12, 2026 (?)
----
-🔜 **Pre-alpha version 0.0.5 release:** August 31, 2026 (?)
+🔜 **Pre-alpha version 0.0.5 release:** July 15, 2026 (?)
 ---
 
 ## Star History
