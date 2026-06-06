@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/b04737cc-8465-4a9c-8131-8e0c9ddff04f
 - 🔜-🛠️ Visual Editor
 - 🔜-💡 Multi-language scripting support (C#/Python/C++)
 - 🔜-🤖 GameGPT AI generator (basic and pro)
-- 🔜-📦 First beta release — **September 1, 2026**
+- 🔜-📦 First beta release — **September 31, 2026**
 
 ---
 
