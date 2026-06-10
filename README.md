@@ -40,9 +40,9 @@ https://github.com/user-attachments/assets/b04737cc-8465-4a9c-8131-8e0c9ddff04f
 ✅ **Test version 0.0.0.3 release:** February 17, 2026 (Fix bugs,better architecture and more)
 ---
 ---
-🔄 **Test version 0.0.0.6 release:** June 10, 2026 (?Fix bugs,better architecture,ImGui interface,unit-tests?)
+✅ **Test version 0.0.0.6 release:** June 10, 2026 (Fix bugs,better architecture,ImGui interface,unit-tests)
 ---
-🔜 **Test version 0.0.0.7 release:** June 14, 2026 (?Сollisions and more?)
+🔄 **Test version 0.0.0.7 release:** June 14, 2026 (?Сollisions and more?)
 ---
 🔜 **Test version 0.0.0.8 release:** June 18, 2026 (?Physics and more?)
 ---
