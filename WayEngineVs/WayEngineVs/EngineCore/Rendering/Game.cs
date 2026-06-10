@@ -1,13 +1,11 @@
 ﻿using Entities;
-using GameRender;
-using ImGuiNET;
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
-using OpenTK.Windowing.GraphicsLibraryFramework;
-using System;
-using System.Xml.Linq;
+using WayEngine.UI;
+using WayEngineVs.Editor;
+
 
 namespace GameRender
 {
@@ -15,6 +13,8 @@ namespace GameRender
     {
 
         private double _accumulator;
+
+        private ImGuiController _controller;
 
 
         public Game(GameWindowSettings gameWindowSettings, NativeWindowSettings nativeWindowSettings)
@@ -27,15 +27,24 @@ namespace GameRender
         {
             base.OnLoad();
 
+            EntitySystem.LoadEntities();
+
+            GL.Enable(EnableCap.Blend);
+
+            
+            GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha);
+
+           
+
+            _controller = new ImGuiController(ClientSize.X, ClientSize.Y);
+
             Entity cam = new Entity("Camera", "Square");
 
-            EntitySystem.LoadEntities();
-            
 
 
-            TransformSystem.ReloadScale(cam, 0.0f);
-            ColorSystem.SetColor(cam, new Color4(0, 0, 0, 0)); 
-            CameraSystem.CreateCamera(cam,150.0f);
+            CameraSystem.CreateCamera(cam, 150.0f);
+
+
         }
 
         protected override void OnRenderFrame(FrameEventArgs args)
@@ -44,20 +53,27 @@ namespace GameRender
 
 
 
-            GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
-
             GL.ClearColor(0.1f, 0.1f, 0.6f, 1f);
+            GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
 
             
 
-            RenderGameProcess.RenderEntities();
+
+            EntitySystem.RenderEntities();
+
+            TransformSystem.ReloadScale(CameraSystem.CamerasScene[0], 0.0f, 0.0f);
+           
 
 
+            WindowM.RenderWindow(_controller, args, this);
 
 
 
 
             SwapBuffers();
+
+            
+
 
         }
 
@@ -68,9 +84,7 @@ namespace GameRender
             _accumulator += args.Time;
             float time = (float)_accumulator;
 
-
-            CameraSystem.UpdateCamera(CameraSystem.CamerasScene[0],150.0f);
-
+            CameraSystem.UpdateCamera(CameraSystem.CamerasScene[0], 150.0f);
         }
     }
 
@@ -78,13 +92,13 @@ namespace GameRender
 
 public class RenderGameProcess
 {
-       public static Vector2i ScreenSize = new Vector2i(520, 480);
+       public static Vector2i ScreenSize = new Vector2i(1080, 920);
 
-       public static void Main(string[] args)
+       public static void Main(string[] args)                     
        {
             var gameWindowSettings = GameWindowSettings.Default;
             var nativeWindowSettings = NativeWindowSettings.Default;
-            nativeWindowSettings.Size = ScreenSize;
+            nativeWindowSettings.ClientSize = ScreenSize;
             nativeWindowSettings.Title = "Game";
 
 
@@ -99,20 +113,17 @@ public class RenderGameProcess
 
 
 
-        public static void RenderEntities() 
+        public static void PreRenderEntities() 
         {
 
             Entity cameraOwner = CameraSystem.CamerasScene[0];
 
             Component.Camera camera = ComponentSystem.GetProperty<Component.Camera>(cameraOwner, "Camera");
 
-            
 
             foreach (Entity entity in EntitySystem.EntitiesScene.Values)
             {
-               
                 RenderEntity(entity, camera);
-
             }
      
         }

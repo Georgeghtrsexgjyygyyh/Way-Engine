@@ -1,22 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<StartupObject>GameRender.RenderGameProcess</StartupObject>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="ImGui.NET" Version="1.91.6.1" />
-    <PackageReference Include="OpenTK" Version="4.9.4" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="ImGui.NET" Version="1.91.6.1" />
+		<PackageReference Include="OpenTK" Version="4.9.4" />
+		<PackageReference Include="xunit.v3" Version="3.2.2" />
+		<PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="EngineCore\Audio\" />
-    <Folder Include="EngineCore\Physics\" />
-    <Folder Include="EngineCore\Input\" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="EngineCore\Audio\" />
+		<Folder Include="EngineCore\Physics\" />
+		<Folder Include="EngineCore\Input\" />
+	</ItemGroup>
 
 </Project>

@@ -24,12 +24,6 @@ public class MeshSystem
 
     public static void CreateMesh(Entity entity)
     {
-
-
-        ////////
-        //float[] vertices = { 0 };
-        //uint[] indices = { 0 };
-
         switch (entity.type)
         {
             case "Triangle":

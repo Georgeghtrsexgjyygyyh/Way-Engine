@@ -6,6 +6,7 @@ using System.Linq;
 using OpenTK.Mathematics;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net.Http.Metrics;
 
 
 public class EntitySystem
@@ -15,23 +16,40 @@ public class EntitySystem
 
     public static Dictionary<int, Entity> EntitiesScene = new Dictionary<int, Entity>();
 
-    public static void LoadEntities()
+    public static Dictionary<int, Entity> EntitiesDuplicate = new Dictionary<int, Entity>();
+    
+    public static void LoadEntities() 
     {
         MeshSystem.LoadMesh();
-
-        foreach (var entity in EntitiesScene.Values)
+    }
+    public static void RenderEntities()
+    {      
+       
+        foreach (Entity entity in EntitiesDuplicate.Values.ToArray())
         {
-            OrderInScene++;
+            if (EntitiesDuplicate.Count > 0 & entity != null)
+            {
 
-            Console.WriteLine($"Entity {OrderInScene}, ID: {entity.ID}");
+                OrderInScene++;
 
-            
-            MeshSystem.CreateMesh(entity);
+                Console.WriteLine($"Entity {OrderInScene}, ID: {entity.ID}");
 
-            TransformSystem.CreateTransform(entity);
 
-            ColorSystem.CreateColor(entity);
+                MeshSystem.CreateMesh(entity);
+
+                TransformSystem.CreateTransform(entity);
+
+                ColorSystem.CreateColor(entity);
+
+                EntitiesDuplicate.Remove(entity.ID);
+
+            }
+
         }
+
+        RenderGameProcess.PreRenderEntities();
+
+
     }
 
 }

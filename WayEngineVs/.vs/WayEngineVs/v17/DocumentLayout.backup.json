@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\editor\\inspectorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\editor\\inspectorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\entitysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\entitysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\components.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\components.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\componentsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\componentsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\colorsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\colorsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\utils\\matrixsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\utils\\matrixsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\editor\\hierarchywindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\editor\\hierarchywindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\transformsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\transformsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\imguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\imguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\editor\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\editor\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08857F6F-6F91-4090-A1B7-4BA71EA8B018}|xUnitTest\\xUnitTest.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\xunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08857F6F-6F91-4090-A1B7-4BA71EA8B018}|xUnitTest\\xUnitTest.csproj|solutionrelative:xunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\camerasystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,51 +63,27 @@
       "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\meshsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\meshsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\colorsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\colorsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\componentsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\componentsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\wayenginevs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\wayenginevs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\transformsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\transformsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\entitysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\entitysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\utils\\matrixsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\utils\\matrixsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\editor\\windowm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\editor\\windowm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\c9e0c9079710d0daf6ddfa7e89bd588d47005e3596d2fb0e54eb5901bde4b2e1\\Overlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\rendering\\meshsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\rendering\\meshsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\wayenginevs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\wayenginevs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|c:\\users\\user\\desktop\\way engine\\wayenginevs\\wayenginevs\\enginecore\\utils\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19399A7F-62B0-4929-AB1D-CB9787AD1473}|WayEngineVs\\WayEngineVs.csproj|solutionrelative:wayenginevs\\enginecore\\utils\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\c9e0c9079710d0daf6ddfa7e89bd588d47005e3596d2fb0e54eb5901bde4b2e1\\Overlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,17 +93,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Type.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\Type.cs",
               "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\Type.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\Type.cs",
               "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\Type.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA7wBwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T15:18:40.273Z",
               "IsPinned": true,
@@ -87,162 +111,252 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\Entity.cs",
               "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\Entity.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\Entity.cs",
               "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\Entity.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA4wBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-17T18:35:42.818Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InspectorWindow.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\Editor\\InspectorWindow.cs",
+              "RelativeDocumentMoniker": "WayEngineVs\\Editor\\InspectorWindow.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\Editor\\InspectorWindow.cs",
+              "RelativeToolTip": "WayEngineVs\\Editor\\InspectorWindow.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwBcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T13:17:23.676Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ColorSystem.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\ColorSystem.cs",
-              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\ColorSystem.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\ColorSystem.cs",
-              "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\ColorSystem.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\Editor\\MainWindow.cs",
+              "RelativeDocumentMoniker": "WayEngineVs\\Editor\\MainWindow.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\Editor\\MainWindow.cs",
+              "RelativeToolTip": "WayEngineVs\\Editor\\MainWindow.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAADgvzgAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T16:55:39.934Z",
+              "WhenOpened": "2026-04-06T12:17:09.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MeshSystem.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\MeshSystem.cs",
-              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\MeshSystem.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\MeshSystem.cs",
-              "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\MeshSystem.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAiwC4AAAByAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ImGuiController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\ImGuiController.cs",
+              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\ImGuiController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\ImGuiController.cs",
+              "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\ImGuiController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAiwEEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T11:31:49.842Z",
+              "WhenOpened": "2026-04-06T12:01:16.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransformSystem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\TransformSystem.cs",
+              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\TransformSystem.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\TransformSystem.cs",
+              "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\TransformSystem.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T16:02:57.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HierarchyWindow.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\Editor\\HierarchyWindow.cs",
+              "RelativeDocumentMoniker": "WayEngineVs\\Editor\\HierarchyWindow.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\Editor\\HierarchyWindow.cs",
+              "RelativeToolTip": "WayEngineVs\\Editor\\HierarchyWindow.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAywCEAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T09:49:43.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "MatrixSystem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Utils\\MatrixSystem.cs",
+              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Utils\\MatrixSystem.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Utils\\MatrixSystem.cs",
+              "RelativeToolTip": "WayEngineVs\\EngineCore\\Utils\\MatrixSystem.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAywB4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T11:41:50.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Shader.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\Shader.cs",
+              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\Shader.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\Shader.cs",
+              "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\Shader.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAywCQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T18:06:55.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WindowM.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\Editor\\WindowM.cs",
+              "RelativeDocumentMoniker": "WayEngineVs\\Editor\\WindowM.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\Editor\\WindowM.cs",
+              "RelativeToolTip": "WayEngineVs\\Editor\\WindowM.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T10:42:28.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntitySystem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\EntitySystem.cs",
+              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\EntitySystem.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\EntitySystem.cs",
+              "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\EntitySystem.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwBoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T06:04:19.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\Game.cs",
               "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\Game.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\Game.cs",
               "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\Game.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAowF8AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAIA1wDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T07:40:24.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "CameraSystem.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\CameraSystem.cs",
               "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\CameraSystem.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\CameraSystem.cs",
               "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\CameraSystem.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAywCEAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA0wBMAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T15:39:22.731Z",
+              "WhenOpened": "2026-01-28T15:39:22.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Utils\\Test.cs",
+              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Utils\\Test.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Utils\\Test.cs",
+              "RelativeToolTip": "WayEngineVs\\EngineCore\\Utils\\Test.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T11:07:28.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WayEngineVs.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\WayEngineVs.csproj",
+              "RelativeDocumentMoniker": "WayEngineVs\\WayEngineVs.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\WayEngineVs.csproj",
+              "RelativeToolTip": "WayEngineVs\\WayEngineVs.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-06T11:40:31.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\xUnitTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "xUnitTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\xUnitTest\\UnitTest1.cs",
+              "RelativeToolTip": "xUnitTest\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:43:56.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ColorSystem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\ColorSystem.cs",
+              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\ColorSystem.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\ColorSystem.cs",
+              "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\ColorSystem.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T16:55:39.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 17,
+              "Title": "MeshSystem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\MeshSystem.cs",
+              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\MeshSystem.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\MeshSystem.cs",
+              "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\MeshSystem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T11:31:49.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Components.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\Components.cs",
               "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\Components.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\Components.cs",
               "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\Components.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-17T15:50:55.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Shader.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\Shader.cs",
-              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\Shader.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\Shader.cs",
-              "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\Shader.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAywCwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T18:06:55.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EntitySystem.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\EntitySystem.cs",
-              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\EntitySystem.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\EntitySystem.cs",
-              "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\EntitySystem.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA4wBMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T06:04:19.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MatrixSystem.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Utils\\MatrixSystem.cs",
-              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Utils\\MatrixSystem.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Utils\\MatrixSystem.cs",
-              "RelativeToolTip": "WayEngineVs\\EngineCore\\Utils\\MatrixSystem.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwB0AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T11:41:50.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TransformSystem.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\TransformSystem.cs",
-              "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\TransformSystem.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\TransformSystem.cs",
-              "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\TransformSystem.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowBkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T16:02:57.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ComponentSystem.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\ComponentSystem.cs",
               "RelativeDocumentMoniker": "WayEngineVs\\EngineCore\\Rendering\\ComponentSystem.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\EngineCore\\Rendering\\ComponentSystem.cs",
               "RelativeToolTip": "WayEngineVs\\EngineCore\\Rendering\\ComponentSystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-28T14:10:39.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WayEngineVs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\WayEngineVs.csproj",
-              "RelativeDocumentMoniker": "WayEngineVs\\WayEngineVs.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\WayEngineVs.csproj",
-              "RelativeToolTip": "WayEngineVs\\WayEngineVs.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-01T18:47:04.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Overlay.cs",
               "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\c9e0c9079710d0daf6ddfa7e89bd588d47005e3596d2fb0e54eb5901bde4b2e1\\Overlay.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\c9e0c9079710d0daf6ddfa7e89bd588d47005e3596d2fb0e54eb5901bde4b2e1\\Overlay.cs",
@@ -252,16 +366,8 @@
               "WhenOpened": "2025-09-01T16:24:45.604Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "WayEngineVs.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\WayEngineVs.csproj",
-              "RelativeDocumentMoniker": "WayEngineVs\\WayEngineVs.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\WayEngineVs.csproj",
-              "RelativeToolTip": "WayEngineVs\\WayEngineVs.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-30T12:55:07.619Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

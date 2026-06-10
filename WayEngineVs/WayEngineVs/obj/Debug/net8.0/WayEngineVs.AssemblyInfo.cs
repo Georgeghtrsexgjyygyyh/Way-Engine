@@ -14,10 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WayEngineVs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+450b31b9c5d6336f4ffa33e3f98e8b43f86aafd4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25d1189bd3c4f7cb416cc9b3553564eba8794dd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("WayEngineVs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WayEngineVs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadata("Microsoft.Testing.Platform.Application", "true")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

@@ -1,0 +1,35 @@
+2026-04-06T07:52:10.1635841+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.9.1+cb5afc3bb9bb01ebd75b57f89e8358b914ee2a49
+2026-04-06T07:52:10.1748212+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-04-06T07:52:10.1760323+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-04-06T07:52:10.1760386+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 07:52:10.141
+2026-04-06T07:52:10.1764625+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 32664
+2026-04-06T07:52:10.1765624+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.21
+2026-04-06T07:52:10.1765731+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.21\System.Private.CoreLib.dll
+2026-04-06T07:52:10.1765810+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-04-06T07:52:10.1766251+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\User\Desktop\Way Engine\WayEngineVs\xUnitTest\bin\Debug\net8.0\xUnitTest.dll
+2026-04-06T07:52:10.1767166+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\User\Desktop\Way Engine\WayEngineVs\xUnitTest\bin\Debug\net8.0\Log --results-directory C:\Users\User\Desktop\Way Engine\WayEngineVs\TestResults --client-port 57307'
+2026-04-06T07:52:10.1781816+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-04-06T07:52:10.1927536+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-04-06T07:52:10.2136233+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-04-06T07:52:10.4621645+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '3.2.2' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2026-04-06T07:52:10.4740956+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v3.2.2+728c1dce01 (64-bit .NET 8.0.21)
+2026-04-06T07:52:10.5290522+00:00 xUnit.net INFORMATION   Discovering: xUnitTest
+2026-04-06T07:52:10.5820019+00:00 xUnit.net INFORMATION   Discovered:  xUnitTest
+2026-04-06T07:52:10.6042440+00:00 xUnit.net INFORMATION   Starting:    xUnitTest
+2026-04-06T07:52:10.7227748+00:00 xUnit.net ERROR     Matrix Translation Check(x1: 1,20000005, y1: 3,4000001, x2: 5,5999999, y2: 7,80000019, expX: 6,80000019, expY: 11,1999998) [FAIL]
+2026-04-06T07:52:10.7230901+00:00 xUnit.net INFORMATION       Assert.Equal() Failure: Values differ
+2026-04-06T07:52:10.7230971+00:00 xUnit.net INFORMATION       Expected: (1; 0; 0; 0)
+(0; 1; 0; 0)
+(0; 0; 1; 0)
+(6,8; 11,2; 0; 1)
+2026-04-06T07:52:10.7230978+00:00 xUnit.net INFORMATION       Actual:   (1; 0; 0; 0)
+(0; 1; 0; 0)
+(0; 0; 1; 0)
+(6,8; 11,200001; 0; 1)
+2026-04-06T07:52:10.7233138+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-04-06T07:52:10.7254561+00:00 xUnit.net INFORMATION         C:\Users\User\Desktop\Way Engine\WayEngineVs\xUnitTest\UnitTest1.cs(41,0): at WayEngine.Tests.UnitTest1.Test_UpdateMatrix_MatrixSystemClass(Single x1, Single y1, Single x2, Single y2, Single expX, Single expY)
+2026-04-06T07:52:10.7254773+00:00 xUnit.net INFORMATION            at InvokeStub_UnitTest1.Test_UpdateMatrix_MatrixSystemClass(Object, Span`1)
+2026-04-06T07:52:10.7254848+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+2026-04-06T07:52:10.7276783+00:00 xUnit.net INFORMATION   Finished:    xUnitTest (ID = 'ef38ecd513eb8aba2251fc72df86884cab1583713f9817475a051d916d9b629b')
+2026-04-06T07:52:10.7305986+00:00 xUnit.net INFORMATION === TEST EXECUTION SUMMARY ===
+2026-04-06T07:52:10.7365274+00:00 xUnit.net INFORMATION    xUnitTest  Total: 10, Errors: 0, Failed: 1, Skipped: 0, Not Run: 0, Time: 0,131s

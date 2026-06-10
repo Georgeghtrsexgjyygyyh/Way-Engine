@@ -11,9 +11,9 @@ using System.Threading.Tasks;
  public class TransformSystem
  {
 
-    public static void SumScale(Entity entity, float scale)
+    public static void SumScale(Entity entity, double scaleX, double scaleY)
     {
-        Matrix4 newScale = MatrixSystem.CreateMatrix("Scale", scale, scale);
+        Matrix4 newScale = MatrixSystem.CreateMatrix("Scale", scaleX, scaleY);
 
         Component.Transform transformEntity = ComponentSystem.GetProperty<Component.Transform>(entity, "Transform");
 
@@ -22,9 +22,9 @@ using System.Threading.Tasks;
         ComponentSystem.SetProperty(entity, "Transform", transformEntity);
     }
 
-    public static void ReloadScale(Entity entity, float scale)
+    public static void ReloadScale(Entity entity, double scaleX,double scaleY)
     {
-        Matrix4 newScale = MatrixSystem.CreateMatrix("Scale", scale, scale);
+        Matrix4 newScale = MatrixSystem.CreateMatrix("Scale", scaleX, scaleY);
 
         Component.Transform transformEntity = ComponentSystem.GetProperty<Component.Transform>(entity, "Transform");
 
@@ -35,7 +35,7 @@ using System.Threading.Tasks;
         
     }
 
-    public static void SumTranslate(Entity entity,float x,float y) 
+    public static void SumTranslate(Entity entity,double x,double y) 
     {
         Matrix4 newPos = MatrixSystem.CreateMatrix("Translate",x,y);
 
@@ -49,7 +49,7 @@ using System.Threading.Tasks;
 
     }
 
-    public static void ReloadTranslate(Entity entity, float x, float y)
+    public static void ReloadTranslate(Entity entity, double x, double y)
     {
         Matrix4 newPos = MatrixSystem.CreateMatrix("Translate", x, y);
 
@@ -62,7 +62,7 @@ using System.Threading.Tasks;
 
     }
 
-    public static void ReloadRotate(Entity entity, float angle) 
+    public static void ReloadRotate(Entity entity, double angle) 
     {
         Matrix4 newRotate  = MatrixSystem.CreateMatrix("Rotate",angle,angle);
 

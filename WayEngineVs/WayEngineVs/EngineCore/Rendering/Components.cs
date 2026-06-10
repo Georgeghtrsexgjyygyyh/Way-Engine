@@ -29,7 +29,7 @@ public class Component
                 xyScale = MatrixSystem.CreateMatrix("Scale", 1.0f, 1.0f);
 
                 zRotate = MatrixSystem.CreateMatrix("Rotate", 0.0f, 0.0f);
-        }
+            }
 
             
         }

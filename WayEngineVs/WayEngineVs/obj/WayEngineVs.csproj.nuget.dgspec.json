@@ -57,6 +57,14 @@
             "OpenTK": {
               "target": "Package",
               "version": "[4.9.4, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit.v3": {
+              "target": "Package",
+              "version": "[3.2.2, )"
             }
           },
           "imports": [

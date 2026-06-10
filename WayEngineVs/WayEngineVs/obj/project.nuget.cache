@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "8QMmOfB9IiA=",
+  "dgSpecHash": "QR0kQ1QPJc8=",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\Way Engine\\WayEngineVs\\WayEngineVs\\WayEngineVs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\imgui.net\\1.91.6.1\\imgui.net.1.91.6.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\1.9.1\\microsoft.testing.extensions.telemetry.1.9.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\1.9.1\\microsoft.testing.extensions.trxreport.abstractions.1.9.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.testing.platform\\1.9.1\\microsoft.testing.platform.1.9.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.testing.platform.msbuild\\1.9.1\\microsoft.testing.platform.msbuild.1.9.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\opentk\\4.9.4\\opentk.4.9.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\opentk.audio.openal\\4.9.4\\opentk.audio.openal.4.9.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\opentk.compute\\4.9.4\\opentk.compute.4.9.4.nupkg.sha512",
@@ -17,8 +25,20 @@
     "C:\\Users\\User\\.nuget\\packages\\opentk.windowing.desktop\\4.9.4\\opentk.windowing.desktop.4.9.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\4.9.4\\opentk.windowing.graphicslibraryframework.4.9.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.analyzers\\1.27.0\\xunit.analyzers.1.27.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.v3\\3.2.2\\xunit.v3.3.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.v3.assert\\3.2.2\\xunit.v3.assert.3.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.v3.common\\3.2.2\\xunit.v3.common.3.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.v3.core.mtp-v1\\3.2.2\\xunit.v3.core.mtp-v1.3.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.v3.extensibility.core\\3.2.2\\xunit.v3.extensibility.core.3.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.v3.mtp-v1\\3.2.2\\xunit.v3.mtp-v1.3.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.v3.runner.common\\3.2.2\\xunit.v3.runner.common.3.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.v3.runner.inproc.console\\3.2.2\\xunit.v3.runner.inproc.console.3.2.2.nupkg.sha512"
   ],
   "logs": []
 }

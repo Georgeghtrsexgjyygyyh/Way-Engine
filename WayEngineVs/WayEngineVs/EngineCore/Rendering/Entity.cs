@@ -34,7 +34,8 @@ namespace Entities
             this.ID = Interlocked.Increment(ref _nextId);
 
 
-            EntitySystem.EntitiesScene.Add(this.ID, this);
+            EntitySystem.EntitiesScene.Add(this.ID,this);
+            EntitySystem.EntitiesDuplicate.Add(this.ID, this);
 
         }
 
